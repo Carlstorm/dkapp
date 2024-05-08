@@ -1,0 +1,23 @@
+.navigation_bar {
+    width: 84px;
+    height: 100%;
+    background: black;
+
+
+    &__button {
+        width: 100%;
+        aspect-ratio: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        &:hover {
+            background: grey;
+        }
+        &_label {
+
+        }
+    }
+}
